@@ -1,0 +1,36 @@
+#rootGridPane {
+    -fx-background-color: #D9F7F0;
+}
+
+VBox {
+    -fx-background-color: #F5F5DC;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+GridPane {
+    -fx-background-color: BLACK
+}
+
+#playerNameLabel {
+    -fx-text-fill: #f20000;
+}
+
+TextField, Button {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-font-size: 12px;
+}
+
+RadioButton {
+    -fx-text-fill: white;
+}
+
+#setNamesButton {
+    -fx-background-color: white;
+    -fx-font-size: 10px;
+}
+
+Button[text="Nueva Partida"] {
+    -fx-background-color: white;
+    -fx-font-size: 14px;
+}
